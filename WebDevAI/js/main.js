@@ -21,7 +21,20 @@ function handleSubmit(event) {
 
 // Function to handle chatbot interaction
 function handleChatbotInteraction(userInput) {
-    // Process user input and generate bot response here
+    // Update the logic to process user input and generate a bot response
+    let botResponse = generateBotResponse(userInput);
+    displayBotResponse(botResponse);
+}
+
+// Function to generate bot response
+function generateBotResponse(userInput) {
+    // Implement the logic to generate a bot response based on user input
+    // Return the bot response
+}
+
+// Function to display bot response
+function displayBotResponse(botResponse) {
+    // Implement the logic to display the bot response to the user
 }
 
 // Event listeners
