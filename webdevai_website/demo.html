@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebDevAI - Demo</title>
+    <link rel="stylesheet" href="css/demo_styles.css">
+    <script src="js/demo_scripts.js" defer></script>
+</head>
+<body>
+    <header id="header">
+        <div class="logo">
+            <img src="appLogo" alt="WebDevAI Logo">
+            <h1>WebDevAI</h1>
+        </div>
+        <nav id="menuBar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="demo.html">Demo</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="demoSection">
+        <h2>Try WebDevAI Now!</h2>
+        <p>Enter your natural language descriptions and receive code snippets in response.</p>
+        <div class="chatbot">
+            <div class="chatbot-output">
+                <p id="demoMessage">Your generated code will appear here...</p>
+            </div>
+            <div class="chatbot-input">
+                <textarea placeholder="Describe your webpage..."></textarea>
+                <button onclick="generateCode()">Generate Code</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>© 2022 WebDevAI. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing - WebDevAI</title>
+    <link rel="stylesheet" href="css/pricing_styles.css">
+    <script src="js/pricing_scripts.js" defer></script>
+</head>
+<body>
+    <header id="header">
+        <div class="logo">
+            <img src="appLogo" alt="WebDevAI Logo">
+            <h1>WebDevAI</h1>
+        </div>
+        <nav id="menuBar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="demo.html">Demo</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="pricingSection">
+        <h2>Choose Your Plan</h2>
+        <div class="pricing-tier">
+            <h3>Free Plan</h3>
+            <p>Get a visually stunning and fully reactive landing page</p>
+            <button onclick="signUp('Free')">Sign Up</button>
+        </div>
+        <div class="pricing-tier">
+            <h3>Pro Plan - $15/month</h3>
+            <p>Get a full multi page interactive and reactive visually stunning website</p>
+            <button onclick="signUp('Pro')">Sign Up</button>
+        </div>
+        <div class="pricing-tier">
+            <h3>Ultimate Plan - $30/month</h3>
+            <p>Get everything in Pro plan and we'll even integrate your own AI into your website</p>
+            <button onclick="signUp('Ultimate')">Sign Up</button>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2022 WebDevAI. All rights reserved.</p>
+    </footer>
+</body>
+</html>
