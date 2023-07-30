@@ -1,0 +1,70 @@
+/* Pricing Page CSS */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #333;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.menu-bar {
+    background-color: #f4f4f4;
+    overflow: hidden;
+}
+
+.menu-bar a {
+    float: left;
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu-bar a:hover {
+    background-color: #ddd;
+    color: #333;
+}
+
+.pricing-section {
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.pricing-tier {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.pricing-tier h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.pricing-tier p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.cta-button {
+    display: inline-block;
+    color: #fff;
+    background-color: #333;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background-color: #666;
+}
