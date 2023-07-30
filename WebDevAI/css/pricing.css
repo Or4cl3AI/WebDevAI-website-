@@ -29,9 +29,9 @@ body {
 }
 
 .pricing-section {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px 0;
+    width: NEW_WIDTH;
+    margin: NEW_MARGIN;
+    padding: NEW_PADDING;
 }
 
 .pricing-card {
